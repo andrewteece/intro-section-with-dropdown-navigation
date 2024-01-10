@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
+    <!-- Main Header -->
     <main class="main__wrapper" id="main__wrapper">
       <header class="main__header">
         <nav class="header__nav">
@@ -23,6 +24,7 @@
               alt="logo image"
             />
           </figure>
+          <!-- Nav Menu -->
           <ul class="header__nav--menu" id="header__nav--menu">
             <li class="header__nav--menu-item">
               <a href="#" id="features"
@@ -31,7 +33,54 @@
                   id="icon-features"
                   class="arrow--icon"
               /></a>
-
+              <!-- Drop Down Features Menu -->
+              <ul class="header__nav--menu-features" id="features-menu">
+                <li class="header__nav--menu-features-item">
+                  <a href="#"
+                    ><img
+                      src="images/icon-todo.svg"
+                      class="features__menu--icon"
+                      alt=""
+                    />Todo List</a
+                  >
+                </li>
+                <li class="header__nav--menu-features-item">
+                  <a href="#"
+                    ><img
+                      src="images/icon-calendar.svg"
+                      class="features__menu--icon"
+                      alt=""
+                    />Calendar</a
+                  >
+                </li>
+                <li class="header__nav--menu-features-item">
+                  <a href="#"
+                    ><img
+                      src="images/icon-reminders.svg"
+                      class="features__menu--icon"
+                      alt=""
+                    />Reminders</a
+                  >
+                </li>
+                <li class="header__nav--menu-features-item">
+                  <a href="#"
+                    ><img
+                      src="images/icon-planning.svg"
+                      class="features__menu--icon"
+                      alt=""
+                    />Planning</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="header__nav--menu-item">
+              <a href="#" id="company"
+                >Company<img
+                  src="images/icon-arrow-down.svg"
+                  id="icon_company"
+                  class="arrow--icon"
+              /></a>
+              <!-- Drop Down Company Menu-->
               <ul class="header__nav--menu-company" id="company-menu">
                 <li class="header__nav--menu-company-item">
                   <a href="#">History</a>
@@ -56,7 +105,7 @@
           <a href="#" class="mobile__menu--icon" id="mobile__menu--icon"></a>
         </nav>
       </header>
-
+      <!-- Content -->
       <section class="section__content">
         <h1 class="section__content--title">Make remote work</h1>
         <p class="section__content--text">
