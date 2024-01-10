@@ -16,3 +16,48 @@
   --clr-neutral-400: hsl(0, 0%, 41%);
   --clr-neutral-700: hsl(0, 0%, 8%);
 }
+
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Body Styles */
+
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--clr-neutral-100);
+  font-family: var(--ff-primary);
+}
+
+h1 {
+  font-weight: var(--fw-bold);
+  color: var(--clr-neutral-700);
+}
