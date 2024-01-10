@@ -13,6 +13,91 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
+    <header>
+      <div class="logo"></div>
+      <div>
+        <img src="./images/logo.svg" alt="" />
+      </div>
+      <nav>
+        <div class="overlay"></div>
+        <div>
+          <img
+            src="./images/icon-close-menu.svg"
+            class="menu--close menu--icon"
+            alt=""
+          />
+          <ul>
+            <li class="wrapper--dropdown">
+              <a href="#">Features</a
+              ><span
+                ><img
+                  src="./images/icon-arrow-down.svg"
+                  class="img--change"
+                  alt=""
+              /></span>
+              <ul class="drop left--shift">
+                <li><img src="./images/icon-todo.svg" alt="" />Todo list</li>
+                <li><img src="./images/icon-calendar.svg" alt="" />Calendar</li>
+                <li>
+                  <img src="./images/icon-reminders.svg" alt="" />Reminders
+                </li>
+                <li><img src="./images/icon-planning.svg" alt="" />Planning</li>
+              </ul>
+            </li>
+            <li class="wrapper--dropdown">
+              <a href="#">Company</a
+              ><span
+                ><img
+                  src="./images/icon-arrow-down.svg"
+                  class="img--change"
+                  alt=""
+              /></span>
+              <ul class="drop">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="auth">
+          <a href="#">Login</a>
+          <button class="btn btn--primary" type="button">Register</button>
+        </div>
+      </nav>
+
+      <div class="menu--icons">
+        <img src="./images/icon-menu.svg" class="menu--open" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <div class="wrapper--picture">
+        <picture>
+          <source
+            media="(min-width: 48rem)"
+            srcset="./images/image-hero-desktop.png"
+          />
+          <img src="./images/image-hero-mobile.png" alt="" />
+        </picture>
+      </div>
+      <section class="main--text">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button type="button">Learn more</button>
+        <div class="social--links">
+          <img src="./images/client-databiz.svg" alt="" />
+          <img src="./images/client-audiophile.svg" alt="" />
+          <img src="./images/client-meet.svg" alt="" />
+          <img src="./images/client-maker.svg" alt="" />
+        </div>
+      </section>
+    </main>
     <script src="assets/script.js"></script>
   </body>
 </html>
