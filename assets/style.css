@@ -212,3 +212,39 @@ body {
   margin-right: 1rem;
   transition: all 0.15s ease-in-out;
 }
+
+.header__account--menu-item_mobile {
+  display: none;
+}
+
+.header__account--menu {
+  margin-left: auto;
+  display: flex;
+  font-size: var(--fs-16);
+}
+
+.header__account--menu-item {
+  margin-top: 2.2rem;
+}
+
+.header__account--menu-item:first-of-type {
+  margin-right: 1.3rem;
+}
+
+.header__account--menu-item a {
+  padding: 0.7rem 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.header__account--menu-item a:hover {
+  color: var(--clr-neutral-700);
+}
+
+.header__account--menu-item:last-of-type a {
+  outline: 0.2rem solid var(--clr-neutral-400);
+  border-radius: 14px;
+}
+
+.header__account--menu-item:last-of-type a:hover {
+  color: var(--clr-neutral-700);
+}
